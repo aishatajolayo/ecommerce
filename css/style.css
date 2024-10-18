@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.bar{
+    padding: 30px;
+    display: flex;
+    /* gap: 20px; */
+    align-items: center;
+    justify-content: space-between;
+}
+.left-bar{
+    /* position: absolute;
+    top: 30px;
+    right:50px ;
+    display: flex;
+    gap: 20px; */
+    display: flex;
+    padding: .6rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    width: 20px;
+}
+.flip{
+    /* animation: flip-horizontal 4s ease-in-out infinite alternate; */
+    opacity: 50%;
+}
+.stock-logo{
+    width: 180px;
+    height: fit-content;
+}
+.nav1{
+    margin-right:50px;
+    margin-left: 50px;
+}
+.nav2{
+    justify-content: flex-start;
+    display: flex;
+    gap: 170px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right:50px ;
+}
+.icon{
+    width: 30px;
+    color: blue;
+}
+.icon:hover{
+    color: red;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    outline: none;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.nav-link{
+    animation: flip-horizontal 4s ease-in-out infinite alternate;
+}
+.shop{
+    color: rgb(255, 209, 154);
+    font-size: 20px;
+}
+.third-div{
+    font-weight: 20%;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding-top:1px;
+    padding-bottom:1px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+}
+.team1{
+    width: 40%;
+}
+.section1{
+    background-image: url(../images/team-image1.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    justify-content: center;
+}
+.section2{
+    display: flex;
+    /* width: 50px; */
+    gap: 2px;
+}
+.fashion{
+    width: 80%;
+    margin: 10px;   
+}
+h2{
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 400px;
+    margin-bottom: 1px;
+    display: block;
+
+}
+u{
+    text-decoration: underline;
+}
+h1{
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+p{
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.trending{
+    display: flex;
+}
+.grid2{
+    display: flex;
+    gap: 60px;
+    margin-left: 30px;
+    margin-right:20px ;
+}
+.cashmere{
+    width: 270px;
+}
+.trending{
+    justify-content: space-between;
+    padding: 30px;
+    margin: 10px;
+}
+.men{
+    gap: 40px;
+}
+.Designer{
+    display: f;
+    align-items: center;
+    /* margin: 200px; */
+    padding: 10px 80px;
+    justify-content: center;
+    background-color: bisque;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
